@@ -15,11 +15,19 @@ import lombok.NoArgsConstructor;
 @Builder
 public class BoardMusicResponseVO {
         private List<BoardMusicInfoEntity> list;
+<<<<<<< HEAD
         // @Schema(description = "총 아티스트 그룹 수", example = "121")
         private Long total;
         // @Schema(description = "총 페이지 수", example = "13")
         private Integer totalPage;
         // @Schema(description = "조회한 페이지 (1 페이지 -> 0 / 2 페이지 -> 1)")
+=======
+       
+        private Long total;
+       
+        private Integer totalPage;
+   
+>>>>>>> hskim
         private Integer currentPage;
     }
 
